@@ -5,9 +5,11 @@ on:
     branches:
     - main
     paths:
+    - ".github/workflows/ci.yml"
     - "src/**"
   pull_request: # run on all PR actions (push, open, reopen)
     paths:
+    - ".github/workflows/ci.yml"
     - "src/**"
 
 env:
